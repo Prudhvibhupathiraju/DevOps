@@ -1,0 +1,5 @@
+df --> command used to display information about total space and available space on a file system
+df -hT --> command used to information about total space and available space on a file system in human readable format
+df -hT | grep xfs --> command used to find word 'xfs' in information about total space and available space on a file system in human readable format
+df -hT | grep -v tmp --> command used to find information about total space and available space on a file system in human readable format excluding word 'tmp'
+df -hT | grep -vE 'tmp|File' --> command used to find information about total space and available space on a file system in human readable format excluding word 'tmp or File'
