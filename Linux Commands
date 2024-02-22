@@ -3,3 +3,5 @@ df -hT --> command used to information about total space and available space on 
 df -hT | grep xfs --> command used to find word 'xfs' in information about total space and available space on a file system in human readable format
 df -hT | grep -v tmp --> command used to find information about total space and available space on a file system in human readable format excluding word 'tmp'
 df -hT | grep -vE 'tmp|File' --> command used to find information about total space and available space on a file system in human readable format excluding word 'tmp or File'
+df -hT | grep -vE 'tmp|File' | awk '{print $6F}' --> command used to display the output after 6 tabs
+df -hT | grep -vE 'tmp|File' | awk '{print $6F}' | cut -d % -f1 --> to cut the percentage symbol
