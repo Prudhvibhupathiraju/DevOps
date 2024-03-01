@@ -1,5 +1,15 @@
 Ansible
 
+Dis-advantages of shell script
+
+1) shell-script will not work on all linux distributions
+2) Scalability - difficult to manage more number of servers
+3) Error handling and validations - need to be done manually
+4) Readability
+5) shell will work for linux, will not work with external systems
+
+Ansible--> Configuration Management Tool
+
 Ansible is an open-source automation tool used for
 
     Configuration management
@@ -7,6 +17,8 @@ Ansible is an open-source automation tool used for
     Cloud provisioning and orchestration(But not recommended)
 
 What is configuration?
+
+-> To make server ready for application deployment is called configuring server
 
 Before deploying the application we need to make the server ready. For example
 
@@ -17,6 +29,13 @@ Before deploying the application we need to make the server ready. For example
     Creation of users, folders, etc.
     Setting permissions.
     Creation of systemctl services.
+
+Deployment 
+-------
+1) Stop the server
+2) remover the old code 
+3) download new code 
+4) restart the server
 
 As a DevOps engineer we need to do this effectively. Basically CRUD over the server.
 
@@ -35,20 +54,18 @@ Disadvantages of shell
 
 Ansible Features
 
-    Platform independent
-    Scalable
-    Idempotence
+    Platform independent --> will work with all distrubutions
+    Scalable --> it can manage many servers
+    Idempotence --> if you run the program multiple times, it should not create any damage
+     Providing same result irrespective of no of executions is called Idempotence 
     Error Handling
     Readable and maintainable
-    Vault
+    Vault --> used to store sensitive information ie .. passwords etc
     Rich modules
     Agent less
 
 Pull vs Push configuration
 
-alt text
-
-alt text
 
 PULL:
 
