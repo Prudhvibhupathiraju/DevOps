@@ -9,3 +9,5 @@ sshpass -p "<password>" ssh <username>@<public-IP> --> to connect to one server 
 sshpass -p "<password>" ssh <username>@<public-IP> -C "echo Hello > /tmp/hello.txt" --> create a file in another server
 sudo yum install ansible -y --> to insall ansible
 ansible -i 54.147.177.192, all -e ansible_user=centos -e ansible_password=DevOps321 -m ping --> to connect to node server and to check the ping status
+ansible -i 54.147.177.192, all -e ansible_username=centos -e ansible_password=DevOps321 --become -m yum -a "name=nginx state=present" --> to install nginx in node server using ansible
+ansible -i 54.147.177.192, all -e ansible_username=centos -e ansible_password=DevOps321 --become -m service -a "name=nginx state=started" --> to start the nginx service in node server using ansible
