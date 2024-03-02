@@ -96,3 +96,5 @@ Ansible
 Linux --> everything is a command 
 ansible --> everything is module/collection
 
+https://docs.ansible.com/ansible/latest/collections/index_module.html--> ansible community modules to connect all the popular tools
+
