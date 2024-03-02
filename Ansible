@@ -91,3 +91,8 @@ chef server
 Ansible
 --------
 -Ansible will push the configuration when ever there is an update
+--------
+
+Linux --> everything is a command 
+ansible --> everything is module/collection
+
