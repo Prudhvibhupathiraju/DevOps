@@ -78,3 +78,16 @@ PUSH:
     Unlike pull there is no need of agent installation.
     Whenever there is a change in configuration, server can push to the nodes directly.
     Ansible uses SSH authentication to connect to the servers.
+
+Ansible --> push based architecture
+
+chef --> pull based architecture
+
+chef server
+------------
+-it should have extra component called agent
+-Agent will continuously check the server for an update
+
+Ansible
+--------
+-Ansible will push the configuration when ever there is an update
