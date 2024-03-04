@@ -98,3 +98,5 @@ ansible --> everything is module/collection
 
 https://docs.ansible.com/ansible/latest/collections/index_module.html--> ansible community modules to connect all the popular tools
 
+In ansible Playbook loop "item" is a keyword  
+
