@@ -15,3 +15,4 @@ ansible -i inventory <group> --list-hosts --> to show list of hosts in inventory
 ansible -i inventory ungrouped --list-hosts --> to show list of ungouped hosts in inventory file
 ansible -i inventory all --list-hosts --> to show all hosts in inve  ntory file
 ansible-playbook -i inventory.ini -e ansible_user=centos -e ansible_password=DevOps321 -e "person=prudhvi" -e "wishes=morning" 08-vars-args.yaml --> running playbook with argumenets
+cp <path-to-file-in-another-directory> . --> copy file in another directory and paste in present working directory
