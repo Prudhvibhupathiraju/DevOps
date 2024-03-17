@@ -100,3 +100,5 @@ https://docs.ansible.com/ansible/latest/collections/index_module.html--> ansible
 
 In ansible Playbook loop "item" is a keyword  
 
+ansible.cfg --> ansible configuration file
+
