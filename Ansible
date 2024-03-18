@@ -102,3 +102,7 @@ In ansible Playbook loop "item" is a keyword
 
 ansible.cfg --> ansible configuration file
 
+HANDLERS
+- The service must be restarted only if the configuration changes are made, no need to restart the service if the configuration changes are not made 
+- This can be done handlers
+
