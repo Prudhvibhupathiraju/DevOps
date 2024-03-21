@@ -2,4 +2,5 @@ terraform --> popular infrastructure as a code
 
 consistent environment
 ----------------------
-same code will work with all environments
+- same code will work with all environments
+- so infratstructure is consitent in all environments
