@@ -44,3 +44,8 @@ declarative advantages
 - no need to follow sequence
 
 terraform init --> initialize the provider
+- .terraform folder is created
+
+terraform plan --> just displays the plan, will not actually create
+
+terraform apply --> it will create the resource
