@@ -26,4 +26,21 @@ CRUD
 - read
 - delete
 
+version control
+------------------
+- if you keep code in git, we can maintain history and we can get back to previous versions
 
+Inventory Mangement
+-------------
+
+-----
+
+Teraform is a declarative way of creative infrastructure
+---
+declarative --> whatever you write you will get it  ( syntax should be correct )
+declarative advantages
+----
+- esay syntax
+- no need to follow sequence
+
+terraform init --> initialize the provider
