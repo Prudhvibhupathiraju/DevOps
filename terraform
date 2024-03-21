@@ -4,3 +4,26 @@ consistent environment
 ----------------------
 - same code will work with all environments
 - so infratstructure is consitent in all environments
+
+Cost Optimization 
+-------------
+- create when required 
+- stop or delete when not required 
+
+automatic dependency management
+----------------------
+- we can create resources and terraform will take care of dependency mangement
+
+modules
+----------
+- you can create terraform code as modules, other projects can use it without writing from scratch.
+
+Automated Infra
+-------
+CRUD
+- create
+- update
+- read
+- delete
+
+
