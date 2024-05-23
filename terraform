@@ -117,3 +117,7 @@ terraform plan
 terraform apply
 
 "terraform.tfvars" file is used to override variables in "variables.tf" file
+
+Data sources
+-------------------
+data sources are used to run the query on the data dynamically from the providers
