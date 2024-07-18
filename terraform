@@ -121,3 +121,40 @@ terraform apply
 Data sources
 -------------------
 data sources are used to run the query on the data dynamically from the providers
+
+For each loop
+------------------
+- usefull to iterate maps
+- terrform will give us a variable each
+
+dynamic block
+------------------
+- to iterate inside the resources
+
+state and remote state
+-------------------------
+whatever we write it should create --> declarative
+
+declarative = desired state
+current state = terraform.tfstate
+
+terraform need to match desired state and terraform.tfstate
+
+remote state
+-------------
+pushing to github
+
+another devops-2 cloned the repo and tried to run again
+
+devops-1 and devops-2
+
+both are running terraform apply
+
+duplicates may come, some resources got error as already exist..
+
+we need to a central state file to check the infra exists or not...
+
+1. collabaration
+	terraform will have no idea about the infra created, if multiple persons are working on same infra, it will try to create duplicates and errors may also come
+2. security
+	tfstate is a crucial, if you keep it in local it may be deleted or updated by mistake.
