@@ -31,3 +31,5 @@ Remote repository
 Commit ID or SHA code is 40 characters universal unique ID to track the content in the git
 
 If you change the content commit ID will change
+
+Commit ID is same for same code universally
