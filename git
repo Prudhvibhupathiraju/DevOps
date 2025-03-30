@@ -17,3 +17,11 @@ create an another branch from main/master
 -> test the application
 -> merge into master -> deploy into production
 
+Commit
+-> commit is a command used to save changes in local repository
+
+Local repository 
+-> local repository is present on your computer where you make changes and commits 
+
+Remote repository
+-> Remote repository is present online platforms like github or servers
