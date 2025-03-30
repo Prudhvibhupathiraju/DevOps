@@ -2,6 +2,8 @@ version control
 
 if you keep code in git, we can maintain history and we can get back to previous versions
 
+Git -> content tracker
+
 main/master --> points the code that is running in production
 
 process to change the code
