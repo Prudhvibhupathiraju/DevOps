@@ -17,3 +17,5 @@ ansible -i inventory all --list-hosts --> to show all hosts in inve  ntory file
 ansible-playbook -i inventory.ini -e ansible_user=centos -e ansible_password=DevOps321 -e "person=prudhvi" -e "wishes=morning" 08-vars-args.yaml --> running playbook with argumenets
 cp <path-to-file-in-another-directory> . --> copy file in another directory and paste in present working directory
 ansible-vault create <directory>/<file_name> --> to create ansible vault to particular path
+touch <file-name> --> creates a empty file
+
