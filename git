@@ -27,3 +27,7 @@ Local repository
 
 Remote repository
 -> Remote repository is present online platforms like github or servers
+
+Commit ID or SHA code is 40 characters universal unique ID to track the content in the git
+
+If you change the content commit ID will change
