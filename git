@@ -33,3 +33,7 @@ Commit ID or SHA code is 40 characters universal unique ID to track the content 
 If you change the content commit ID will change
 
 Commit ID is same for same code universally
+
+echo "Hello World" | git hash-object --stdin --> prints commit ID or SHA code (contains 40 characters universal unique ID for content)
+git log -> displays history of commits in the repository
+git cat-file <commit-ID> -p -> will get total information on commit
