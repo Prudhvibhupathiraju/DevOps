@@ -1,3 +1,19 @@
 version control
 
 if you keep code in git, we can maintain history and we can get back to previous versions
+
+main/master --> points the code that is running in production
+
+process to change the code
+----------------------
+-> create a copy of the file 
+-> do the changes 
+-> test the changes 
+-> then merge the changes to the main file
+
+create an another branch from main/master
+-> do the changes here 
+-> run CICD --> deploy in dev
+-> test the application
+-> merge into master -> deploy into production
+
