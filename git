@@ -37,3 +37,27 @@ Commit ID is same for same code universally
 echo "Hello World" | git hash-object --stdin --> prints commit ID or SHA code (contains 40 characters universal unique ID for content)
 git log -> displays history of commits in the repository
 git cat-file <commit-ID> -p -> will get total information on commit
+
+merge stratagies
+----------------
+
+1.Merge
+--------------
+When you merge one branch with another branch
+main <- feature1
+It will create a merge commit always have 2 parents
+merge will preserve the complete history, It is like a chain structure
+
+2.Rebase
+---------
+no extra commit
+commit ids will change rewrites history
+it will not preserve history
+it look like a linear development happend in main branch
+
+Squash
+----------
+mixing all the commits into single commit
+
+if a feature is develped by multiple developers then we use merge
+rebase is used when there is only one developer
