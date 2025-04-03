@@ -61,3 +61,13 @@ mixing all the commits into single commit
 
 if a feature is develped by multiple developers then we use merge
 rebase is used when there is only one developer
+
+Branching strategy
+--------------------
+main
+apart from main --> anything is called as feature
+main is long lived branch, feature is short lived branch
+developers create feature branches, 
+do development on feature branches , 
+once they complete the development they create Pull Request into main branch
+use merge/rebase into main branch
